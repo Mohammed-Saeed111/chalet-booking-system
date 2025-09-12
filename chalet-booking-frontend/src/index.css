@@ -10,4 +10,9 @@
   body {
     @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-200;
   }
+
+  /* Ensure all headings have high-contrast colors on any background */
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-gray-900 dark:text-white;
+  }
 }

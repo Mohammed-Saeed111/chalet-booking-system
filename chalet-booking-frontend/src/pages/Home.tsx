@@ -5,31 +5,83 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-600 to-purple-700 text-white">
-        <div className="absolute inset-0 bg-black opacity-20"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+      <section
+        className="relative w-full min-h-[70vh] text-white bg-center bg-cover"
+        style={{
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1501117716987-c8e2a9ce8dff?q=80&w=1600&auto=format&fit=crop')",
+        }}
+      >
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/55"></div>
+
+        {/* Content */}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-center min-h-[70vh]">
+          <div className="w-full text-center">
+            
+
+            {/* Headline */}
+            <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
               Discover Your Perfect
-              <span className="block text-yellow-400">Mountain Retreat</span>
+              <span className="block">Gateway destination</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
-              Experience luxury chalet rentals in the most beautiful mountain locations. 
-              Book your dream getaway today.
+
+            {/* Subheadline */}
+            <p className="text-base md:text-lg text-white/85 max-w-3xl mx-auto mb-10">
+              Unparalleled luxury and comfort await at the world’s most exclusive hotels and
+              resorts. Start your journey today.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                to="/chalets"
-                className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-8 rounded-lg text-lg transition-colors"
-              >
-                Explore Chalets
-              </Link>
-              <Link
-                to="/about"
-                className="border-2 border-white text-white hover:bg-white hover:text-blue-600 font-bold py-3 px-8 rounded-lg text-lg transition-colors"
-              >
-                Learn More
-              </Link>
+
+            {/* Search Box */}
+            <div className="w-full max-w-5xl mx-auto">
+              <div className="bg-white rounded-2xl shadow-xl p-4 md:p-5 grid grid-cols-1 md:grid-cols-5 gap-3 md:gap-4 items-end">
+                {/* Destination */}
+                <div className="md:col-span-2">
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">Destination</label>
+                  <input
+                    type="text"
+                    placeholder="Type here"
+                    className="w-full h-11 px-4 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                  />
+                </div>
+
+                {/* Check in */}
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">Check in</label>
+                  <input
+                    type="date"
+                    className="w-full h-11 px-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                  />
+                </div>
+
+                {/* Check out */}
+                <div>
+                  <label className="block text-sm font-semibold text-gray-700 mb-2">Check out</label>
+                  <input
+                    type="date"
+                    className="w-full h-11 px-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                  />
+                </div>
+
+                {/* Guests + Search */}
+                <div className="flex md:block gap-3">
+                  <div className="flex-1 md:mb-0">
+                    <label className="block text-sm font-semibold text-gray-700 mb-2">Guests</label>
+                    <select className="w-full h-11 px-3 rounded-xl border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none">
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4+</option>
+                    </select>
+                  </div>
+                  <button
+                    className="md:mt-6 h-11 md:h-11 whitespace-nowrap inline-flex items-center justify-center px-6 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold shadow"
+                  >
+                    Search
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
