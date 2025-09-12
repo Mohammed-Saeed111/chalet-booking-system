@@ -1,69 +1,17 @@
-# Chalet Booking System Frontend
+# Chalet Booking Frontend
 
-A modern, responsive React application for chalet booking and management built with Vite, TypeScript, and TailwindCSS.
+A modern React application for chalet booking system built with Vite, TypeScript, and TailwindCSS.
 
 ## 🚀 Features
 
-- **🏠 Home Page** - Beautiful landing page with hero section and features
-- **🔐 Authentication** - User login/register with role-based access
-- **🏔️ Chalet Listings** - Browse and search chalets with filtering
-- **📅 Booking System** - Book chalets with date selection
-- **👥 User Management** - Different dashboards for users, employees, and admins
-- **🌙 Dark Mode** - Toggle between light and dark themes
-- **📱 Responsive Design** - Works on all device sizes
-- **⚡ Fast Performance** - Built with Vite for optimal speed
-
-## 🛠️ Tech Stack
-
-- **React 19** - Latest React with modern features
-- **TypeScript** - Type safety and better development experience
-- **Vite** - Fast build tool and development server
-- **TailwindCSS** - Utility-first CSS framework
-- **React Router DOM** - Client-side routing
-- **Context API** - State management
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js 20.19+ or 22.12+
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-```bash
-git clone <your-repo-url>
-cd chalet-booking-frontend
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Start the development server:
-```bash
-npm run dev
-```
-
-4. Open your browser and visit `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The build files will be in the `dist` directory.
-
-## 🔑 Demo Accounts
-
-Test the application with these demo accounts:
-
-- **Admin**: `admin@chalet.com` / `admin123`
-- **Employee**: `employee@chalet.com` / `employee123`
-- **User**: `user@chalet.com` / `user123`
+- **Modern React 19** with Vite for fast development
+- **TypeScript** for type safety
+- **TailwindCSS** for responsive design
+- **React Router DOM** for client-side routing
+- **Dark Mode** support
+- **Authentication System** with context API
+- **Responsive Design** for all devices
+- **Employee & Admin Dashboards**
 
 ## 📁 Project Structure
 
@@ -76,67 +24,131 @@ src/
 │   ├── Home.tsx        # Landing page
 │   ├── Login.tsx       # Login page
 │   ├── Register.tsx    # Registration page
-│   ├── Chalets.tsx     # Chalet listings
-│   ├── ChaletDetails.tsx # Individual chalet details
-│   ├── Booking.tsx     # User bookings
-│   ├── About.tsx       # About page
-│   ├── Services.tsx    # Services page
-│   ├── Contact.tsx     # Contact page
+│   ├── Chalets.tsx     # Chalets listing
+│   ├── ChaletDetails.tsx # Chalet details
+│   ├── Booking.tsx     # Booking management
+│   ├── About.tsx       # About us
+│   ├── Services.tsx    # Services
+│   ├── Contact.tsx     # Contact us
 │   ├── EmployeeDashboard.tsx # Employee dashboard
-│   └── AdminDashboard.tsx    # Admin dashboard
-├── context/            # React Context for state management
+│   └── AdminDashboard.tsx   # Admin dashboard
+├── context/            # React context
 │   └── AuthContext.tsx # Authentication context
-├── hooks/              # Custom React hooks
+├── hooks/              # Custom hooks
 │   └── useAuth.ts      # Authentication hook
 ├── utils/              # Utility functions
-│   └── api.ts          # API utility functions
-└── App.tsx             # Main application component
+│   └── api.ts          # API utilities
+└── App.tsx             # Main app component
 ```
 
-## 🌐 Deployment
+## 🛠️ Tech Stack
 
-This project is configured for deployment on Vercel:
+- **React 19** - UI library
+- **Vite** - Build tool
+- **TypeScript** - Type safety
+- **TailwindCSS** - CSS framework
+- **React Router DOM** - Routing
+- **ESLint** - Code linting
 
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Vercel will automatically detect it's a Vite project
-4. Deploy!
+## 🚀 Getting Started
 
-The `vercel.json` file contains the necessary configuration for SPA routing.
+### Prerequisites
 
-## 🎨 Customization
+- Node.js 18+ (recommended: 20.19+ or 22.12+)
+- npm or yarn
 
-### Styling
-- Modify TailwindCSS classes in components
-- Update colors in `tailwind.config.js`
-- Add custom CSS in `src/index.css`
+### Installation
 
-### Adding New Pages
-1. Create a new component in `src/pages/`
-2. Add the route in `src/App.tsx`
-3. Update navigation in `src/components/Navbar.tsx`
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd chalet-booking-frontend
+```
 
-## 📝 Available Scripts
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start development server:
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+### Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
-## 🤝 Contributing
+## 🌐 Deployment
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+### Vercel (Recommended)
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Vercel will automatically detect it's a Vite project
+4. Deploy!
+
+### Manual Build
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+## 🔐 Demo Accounts
+
+- **User**: user@example.com / password123
+- **Employee**: employee@example.com / password123
+- **Admin**: admin@example.com / password123
+
+## 📱 Pages
+
+- **Home** (`/`) - Landing page with hero section
+- **Login** (`/login`) - User authentication
+- **Register** (`/register`) - User registration
+- **Chalets** (`/chalets`) - Browse available chalets
+- **Chalet Details** (`/chalet/:id`) - Individual chalet information
+- **Booking** (`/booking`) - Manage bookings
+- **About** (`/about`) - About us page
+- **Services** (`/services`) - Our services
+- **Contact** (`/contact`) - Contact information
+- **Employee Dashboard** (`/employee-dashboard`) - Employee panel
+- **Admin Dashboard** (`/admin-dashboard`) - Admin panel
+
+## 🎨 Styling
+
+The project uses TailwindCSS for styling with:
+- Responsive design
+- Dark mode support
+- Custom color palette
+- Component-based styling
+
+## 🔧 Configuration
+
+- **TypeScript**: `tsconfig.json`, `tsconfig.app.json`, `tsconfig.node.json`
+- **Vite**: `vite.config.ts`
+- **TailwindCSS**: `tailwind.config.js`
+- **PostCSS**: `postcss.config.js`
+- **ESLint**: `.eslintrc.cjs`
 
 ## 📄 License
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
+## 🤝 Contributing
 
-- React team for the amazing framework
-- Vite team for the fast build tool
-- TailwindCSS team for the utility-first CSS framework
-- Vercel for the deployment platform
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📞 Support
+
+For support, email support@chaletbooking.com or create an issue in the repository.
