@@ -1,7 +1,7 @@
 // API utility functions for the chalet booking system
 // In a real application, these would make actual HTTP requests to a backend API
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+// const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
 
 export interface ApiResponse<T> {
   data: T;
@@ -47,7 +47,7 @@ export const api = {
     };
   },
 
-  async getChalet(id: string): Promise<ApiResponse<Chalet | null>> {
+  async getChalet(_id: string): Promise<ApiResponse<Chalet | null>> {
     // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 300));
     return {
@@ -101,7 +101,7 @@ export const api = {
     };
   },
 
-  async register(name: string, email: string, password: string): Promise<ApiResponse<{ user: any; token: string }>> {
+  async register(name: string, email: string, _password: string): Promise<ApiResponse<{ user: any; token: string }>> {
     // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 1000));
     return {
