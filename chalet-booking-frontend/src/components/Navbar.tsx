@@ -21,9 +21,11 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <span className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                ChaletBooking
-              </span>
+              <img
+                src="/assets/Screenshot (1).png"  // ضع هنا مسار الصورة في مجلد public/assets
+                alt="ChaletBooking Logo"
+                className="h-10"       // ارتفاع الصورة حسب التصميم
+              />
             </Link>
           </div>
 
@@ -31,51 +33,46 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
-              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/') 
-                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20' 
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive('/')
+                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
                   : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
-              }`}
+                }`}
             >
               Home
             </Link>
             <Link
               to="/chalets"
-              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/chalets') 
-                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20' 
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive('/chalets')
+                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
                   : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
-              }`}
+                }`}
             >
               Chalets
             </Link>
             <Link
               to="/about"
-              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/about') 
-                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20' 
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive('/about')
+                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
                   : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
-              }`}
+                }`}
             >
               About
             </Link>
             <Link
               to="/services"
-              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/services') 
-                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20' 
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive('/services')
+                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
                   : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
-              }`}
+                }`}
             >
               Services
             </Link>
             <Link
               to="/contact"
-              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                isActive('/contact') 
-                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20' 
+              className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${isActive('/contact')
+                  ? 'text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-900/20'
                   : 'text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400'
-              }`}
+                }`}
             >
               Contact
             </Link>

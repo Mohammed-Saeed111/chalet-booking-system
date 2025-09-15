@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -189,12 +190,12 @@ const About = () => {
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
             Join thousands of satisfied guests who have discovered the magic of mountain living
           </p>
-          <a
-            href="/chalets"
+          <Link
+            to="/chalets"
             className="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg text-lg transition-colors inline-block"
           >
             Browse Our Chalets
-          </a>
+          </Link>
         </div>
       </section>
     </div>
