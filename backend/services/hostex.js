@@ -9,7 +9,7 @@ const hostexClient = axios.create({
   baseURL: HOSTEX_API_BASE_URL,
   headers: {
     'Authorization': `Bearer ${HOSTEX_API_KEY}`,
-    'Content-Type': 'application/json',
+    'accept': 'application/json',
   },
   timeout: 10000, // 10 seconds timeout
 });

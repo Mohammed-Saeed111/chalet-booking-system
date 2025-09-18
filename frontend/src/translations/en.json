@@ -1,0 +1,516 @@
+{
+  "common": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "search": "Search",
+    "book_now": "Book Now",
+    "learn_more": "Learn More",
+    "read_more": "Read More",
+    "show_more": "Show More",
+    "show_less": "Show Less",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "close": "Close",
+    "submit": "Submit",
+    "reset": "Reset",
+    "clear": "Clear",
+    "filter": "Filter",
+    "sort": "Sort",
+    "view": "View",
+    "details": "Details",
+    "price": "Price",
+    "per_night": "per night",
+    "guests": "Guests",
+    "check_in": "Check In",
+    "check_out": "Check Out",
+    "availability": "Availability",
+    "amenities": "Amenities",
+    "location": "Location",
+    "rating": "Rating",
+    "reviews": "Reviews",
+    "photos": "Photos",
+    "description": "Description",
+    "features": "Features",
+    "included": "Included",
+    "not_included": "Not Included",
+    "terms_conditions": "Terms & Conditions",
+    "privacy_policy": "Privacy Policy",
+    "language": "Language",
+    "english": "English",
+    "arabic": "العربية",
+    "help": "Help Center",
+    "booking_guide": "Booking Guide",
+    "cookie_policy": "Cookie Policy"
+  },
+  "navbar": {
+    "title": "Chalenda",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "chalets": "Chalets",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings",
+    "logout": "Logout"
+  },
+  "home": {
+    "hero": {
+      "title": "Discover Your Perfect Chalet Getaway",
+      "subtitle": "Experience luxury and comfort in our premium chalet collection",
+      "cta": "Explore Chalets"
+    },
+    "why_choose": "Why Choose Our Chalets?",
+    "why_choose_text": "We provide exceptional experiences in the most beautiful locations",
+    "luxury_accommodations": "Luxury Accommodations",
+    "luxury_accommodations_text": "Premium chalets with modern amenities and stunning mountain views",
+    "easy_booking": "Easy Booking",
+    "easy_booking_text": "Simple and secure online booking process with instant confirmation",
+    "prime_locations": "Prime Locations",
+    "prime_locations_text": "Carefully selected locations with breathtaking views and easy access",
+    "ready_adventure": "Ready for Your Next Adventure?",
+    "ready_adventure_text": "Join thousands of satisfied guests who have experienced the magic of our chalets",
+    "book_now": "Book Now",
+    "features": {
+      "title": "Why Choose Our Chalets?",
+      "luxury": {
+        "title": "Luxury Accommodation",
+        "description": "Premium chalets with modern amenities and stunning views"
+      },
+      "location": {
+        "title": "Prime Locations",
+        "description": "Strategically located in the most beautiful destinations"
+      },
+      "service": {
+        "title": "24/7 Service",
+        "description": "Round-the-clock support for your comfort and convenience"
+      }
+    },
+    "popular_chalets": {
+      "title": "Popular Chalets",
+      "view_all": "View All Chalets"
+    },
+    "testimonials": {
+      "title": "What Our Guests Say",
+      "subtitle": "Real experiences from real guests"
+    }
+  },
+  "chalets": {
+    "title": "Our Chalets",
+    "subtitle": "Find your perfect getaway",
+    "filters": {
+      "price_range": "Price Range",
+      "guests": "Number of Guests",
+      "amenities": "Amenities",
+      "location": "Location",
+      "apply_filters": "Apply Filters",
+      "clear_filters": "Clear Filters"
+    },
+    "sort": {
+      "price_low_high": "Price: Low to High",
+      "price_high_low": "Price: High to Low",
+      "rating": "Rating",
+      "newest": "Newest"
+    },
+    "no_results": "No chalets found matching your criteria",
+    "loading": "Loading chalets..."
+  },
+  "chalet_details": {
+    "book_now": "Book Now",
+    "check_availability": "Check Availability",
+    "amenities": "Amenities",
+    "location": "Location",
+    "reviews": "Reviews",
+    "similar_chalets": "Similar Chalets",
+    "gallery": "Photo Gallery",
+    "description": "Description",
+    "features": "Features",
+    "house_rules": "House Rules",
+    "cancellation_policy": "Cancellation Policy"
+  },
+  "booking": {
+    "title": "Book Your Stay",
+    "select_dates": "Select Dates",
+    "guests": "Number of Guests",
+    "total_price": "Total Price",
+    "book_now": "Complete Booking",
+    "booking_summary": "Booking Summary",
+    "payment": "Payment",
+    "confirmation": "Booking Confirmation",
+    "success": "Booking Successful!",
+    "error": "Booking Failed"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email Address",
+      "password": "Password",
+      "remember_me": "Remember Me",
+      "forgot_password": "Forgot Password?",
+      "no_account": "Don't have an account?",
+      "sign_up": "Sign Up"
+    },
+    "register": {
+      "title": "Create Account",
+      "subtitle": "Join us today",
+      "name": "Full Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirm_password": "Confirm Password",
+      "agree_terms": "I agree to the Terms and Conditions",
+      "have_account": "Already have an account?",
+      "sign_in": "Sign In"
+    }
+  },
+  "about": {
+    "title": "About Chalenda",
+    "subtitle": "Your Gateway to Luxury Chalet Experiences",
+    "mission": "Our Mission",
+    "mission_text": "To provide exceptional chalet experiences that create lasting memories for our guests.",
+    "vision": "Our Vision",
+    "vision_text": "To be the leading platform for luxury chalet bookings in the region.",
+    "values": "Our Values",
+    "values_text": "Quality, Service, and Guest Satisfaction are at the heart of everything we do."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "name": "Your Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send_message": "Send Message",
+    "contact_info": "Contact Information",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Business Hours"
+  },
+  "footer": {
+    "description": "Your premier destination for luxury chalet experiences. Book your perfect getaway today.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Info",
+    "follow_us": "Follow Us",
+    "newsletter": "Newsletter",
+    "newsletter_text": "Subscribe to get updates on new chalets and special offers",
+    "subscribe": "Subscribe",
+    "all_rights_reserved": "All rights reserved"
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Sign in to your account",
+    "email": "Email Address",
+    "password": "Password",
+    "remember_me": "Remember Me",
+    "forgot_password": "Forgot Password?",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign Up",
+    "sign_in": "Sign In",
+    "login_button": "Login",
+    "login_success": "Login successful!",
+    "login_error": "Login failed. Please check your credentials."
+  },
+  "register": {
+    "title": "Create Account",
+    "subtitle": "Join us today",
+    "name": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "agree_terms": "I agree to the Terms and Conditions",
+    "have_account": "Already have an account?",
+    "sign_in": "Sign In",
+    "register_button": "Create Account",
+    "register_success": "Account created successfully!",
+    "register_error": "Registration failed. Please try again.",
+    "password_mismatch": "Passwords do not match",
+    "password_short": "Password must be at least 6 characters long"
+  },
+  "chalets": {
+    "title": "Our Chalets",
+    "subtitle": "Find your perfect getaway",
+    "filters": {
+      "price_range": "Price Range",
+      "guests": "Number of Guests",
+      "amenities": "Amenities",
+      "location": "Location",
+      "apply_filters": "Apply Filters",
+      "clear_filters": "Clear Filters"
+    },
+    "sort": {
+      "price_low_high": "Price: Low to High",
+      "price_high_low": "Price: High to Low",
+      "rating": "Rating",
+      "newest": "Newest"
+    },
+    "no_results": "No chalets found matching your criteria",
+    "loading": "Loading chalets...",
+    "view_details": "View Details",
+    "book_now": "Book Now",
+    "from": "from",
+    "per_night": "per night"
+  },
+  "chalet_details": {
+    "book_now": "Book Now",
+    "check_availability": "Check Availability",
+    "amenities": "Amenities",
+    "location": "Location",
+    "reviews": "Reviews",
+    "similar_chalets": "Similar Chalets",
+    "gallery": "Photo Gallery",
+    "description": "Description",
+    "features": "Features",
+    "house_rules": "House Rules",
+    "cancellation_policy": "Cancellation Policy",
+    "capacity": "Capacity",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "size": "Size",
+    "minimum_nights": "Minimum Nights",
+    "maximum_nights": "Maximum Nights",
+    "property_type": "Property Type",
+    "rating": "Rating",
+    "review_count": "Reviews",
+    "status": "Status",
+    "available": "Available",
+    "unavailable": "Unavailable",
+    "select_dates": "Please select check-in and check-out dates",
+    "redirecting": "Redirecting to booking page...",
+    "amenities": "Amenities",
+    "wifi": "Free WiFi",
+    "parking": "Free Parking",
+    "kitchen": "Fully Equipped Kitchen",
+    "book_now": "Book Now"
+  },
+  "booking": {
+    "title": "Book Your Stay",
+    "select_dates": "Select Dates",
+    "guests": "Number of Guests",
+    "total_price": "Total Price",
+    "book_now": "Complete Booking",
+    "booking_summary": "Booking Summary",
+    "payment": "Payment",
+    "confirmation": "Booking Confirmation",
+    "success": "Booking Successful!",
+    "error": "Booking Failed",
+    "check_in_date": "Check-in Date",
+    "check_out_date": "Check-out Date",
+    "number_of_nights": "Number of Nights",
+    "price_per_night": "Price per Night",
+    "total_amount": "Total Amount",
+    "special_requests": "Special Requests",
+    "contact_info": "Contact Information",
+    "payment_method": "Payment Method",
+    "terms_agreement": "I agree to the terms and conditions",
+    "confirm_booking": "Confirm Booking",
+    "login_required": "Please log in to view your bookings",
+    "login_required_message": "You need to be logged in to access your booking history.",
+    "manage_reservations": "Manage your chalet reservations and view booking history",
+    "no_bookings": "No bookings found",
+    "get_started": "Get started by booking your first chalet.",
+    "browse_chalets": "Browse Chalets",
+    "total": "Total",
+    "view_details": "View Details",
+    "cancel_booking": "Cancel Booking",
+    "confirm_payment": "Confirm Payment"
+  },
+  "about": {
+    "title": "About Chalenda",
+    "subtitle": "Your Gateway to Luxury Chalet Experiences",
+    "mission": "Our Mission",
+    "mission_text": "To provide exceptional chalet experiences that create lasting memories for our guests.",
+    "vision": "Our Vision",
+    "vision_text": "To be the leading platform for luxury chalet bookings in the region.",
+    "values": "Our Values",
+    "values_text": "Quality, Service, and Guest Satisfaction are at the heart of everything we do.",
+    "team": "Our Team",
+    "team_text": "Meet the dedicated professionals who make your stay memorable.",
+    "story": "Our Story",
+    "story_text": "Founded with a passion for hospitality, we've been creating unforgettable experiences since our inception.",
+    "happy_guests": "Happy Guests",
+    "premium_chalets": "Premium Chalets",
+    "passion": "Passion",
+    "passion_text": "We're passionate about mountain living and sharing that experience with our guests.",
+    "quality": "Quality",
+    "quality_text": "We maintain the highest standards in all our properties and services.",
+    "community": "Community",
+    "community_text": "We build lasting relationships with our guests and local communities.",
+    "team_member_1": {
+      "name": "John Smith",
+      "position": "Founder & CEO",
+      "description": "Mountain enthusiast with 15 years of hospitality experience."
+    },
+    "team_member_2": {
+      "name": "Sarah Johnson",
+      "position": "Operations Manager",
+      "description": "Ensures every guest has a perfect stay experience."
+    },
+    "team_member_3": {
+      "name": "Mike Chen",
+      "position": "Customer Success",
+      "description": "Dedicated to making your booking process seamless."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Everything you need for a perfect stay",
+    "concierge": {
+      "title": "24/7 Concierge Service",
+      "description": "Round-the-clock assistance for all your needs"
+    },
+    "cleaning": {
+      "title": "Professional Cleaning",
+      "description": "Daily housekeeping and maintenance services",
+      "features": [
+        "Daily housekeeping",
+        "Deep cleaning",
+        "Linen service",
+        "Maintenance support"
+      ]
+    },
+    "security": {
+      "title": "Security & Safety",
+      "description": "24/7 security monitoring and emergency response"
+    },
+    "transportation": {
+      "title": "Transportation",
+      "description": "Airport transfers and local transportation services"
+    },
+    "dining": {
+      "title": "Dining Services",
+      "description": "In-house dining and catering options"
+    },
+    "activities": {
+      "title": "Activities & Entertainment",
+      "description": "Curated experiences and local recommendations"
+    },
+    "concierge": {
+      "title": "24/7 Concierge Service",
+      "description": "Round-the-clock assistance for all your needs",
+      "features": [
+        "Activity planning",
+        "Restaurant reservations", 
+        "Transportation",
+        "Local recommendations"
+      ]
+    },
+    "ski_packages": {
+      "title": "Ski & Snowboard Packages",
+      "description": "Complete winter sports packages with equipment and lift tickets",
+      "features": [
+        "Equipment rental",
+        "Lift tickets",
+        "Lessons available",
+        "Group discounts"
+      ]
+    },
+    "event_planning": {
+      "title": "Event Planning",
+      "description": "Special occasions and corporate retreats in stunning mountain settings",
+      "features": [
+        "Wedding venues",
+        "Corporate retreats",
+        "Family reunions",
+        "Custom packages"
+      ]
+    },
+    "transportation": {
+      "title": "Transportation Services",
+      "description": "Airport transfers and local transportation to make your journey seamless",
+      "features": [
+        "Airport pickup",
+        "Local shuttles",
+        "Private transfers",
+        "Group transportation"
+      ]
+    },
+    "maintenance": {
+      "title": "Maintenance & Support",
+      "description": "24/7 maintenance and support to ensure your comfort throughout your stay",
+      "features": [
+        "24/7 support",
+        "Quick response",
+        "Professional maintenance",
+        "Emergency services"
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team",
+    "name": "Your Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "send_message": "Send Message",
+    "contact_info": "Contact Information",
+    "phone": "Phone",
+    "address": "Address",
+    "hours": "Business Hours",
+    "get_in_touch": "Get in Touch",
+    "visit_us": "Visit Us",
+    "call_us": "Call Us",
+    "email_us": "Email Us",
+    "form_success": "Message sent successfully!",
+    "form_error": "Failed to send message. Please try again.",
+    "business_hours": "Business Hours"
+  },
+  "dashboard": {
+    "welcome": "Welcome to your dashboard",
+    "overview": "Overview",
+    "bookings": "Bookings",
+    "profile": "Profile",
+    "settings": "Settings",
+    "recent_bookings": "Recent Bookings",
+    "upcoming_trips": "Upcoming Trips",
+    "past_trips": "Past Trips",
+    "favorites": "Favorites",
+    "notifications": "Notifications"
+  },
+  "admin": {
+    "dashboard": "Admin Dashboard",
+    "users": "Users",
+    "chalets": "Chalets",
+    "bookings": "Bookings",
+    "reports": "Reports",
+    "settings": "Settings",
+    "statistics": "Statistics",
+    "revenue": "Revenue",
+    "occupancy": "Occupancy Rate",
+    "total_users": "Total Users",
+    "total_bookings": "Total Bookings"
+  },
+  "employee": {
+    "dashboard": "Employee Dashboard",
+    "manage_bookings": "Manage Bookings",
+    "customer_support": "Customer Support",
+    "reports": "Reports",
+    "tasks": "Tasks",
+    "schedule": "Schedule"
+  },
+  "errors": {
+    "page_not_found": "Page Not Found",
+    "page_not_found_message": "The page you're looking for doesn't exist.",
+    "go_home": "Go Home",
+    "server_error": "Server Error",
+    "server_error_message": "Something went wrong. Please try again later.",
+    "network_error": "Network Error",
+    "network_error_message": "Please check your internet connection and try again."
+  }
+}

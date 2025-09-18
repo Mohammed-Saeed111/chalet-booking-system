@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  }
+  
+  body {
+    @apply bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-200;
+  }
+
+  /* Ensure all headings have high-contrast colors on any background */
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-gray-900 dark:text-white;
+  }
+
+  /* RTL Support */
+  [dir="rtl"] {
+    direction: rtl;
+  }
+
+  [dir="ltr"] {
+    direction: ltr;
+  }
+
+  /* RTL-specific styles */
+  [dir="rtl"] .rtl\:text-right {
+    text-align: right;
+  }
+
+  [dir="rtl"] .rtl\:text-left {
+    text-align: left;
+  }
+
+  [dir="rtl"] .rtl\:mr-auto {
+    margin-right: auto;
+  }
+
+  [dir="rtl"] .rtl\:ml-auto {
+    margin-left: auto;
+  }
+
+  [dir="rtl"] .rtl\:pr-4 {
+    padding-right: 1rem;
+  }
+
+  [dir="rtl"] .rtl\:pl-4 {
+    padding-left: 1rem;
+  }
+
+  /* Arabic font support */
+  [lang="ar"] {
+    font-family: 'Segoe UI', 'Tahoma', 'Arial', sans-serif;
+  }
+}
